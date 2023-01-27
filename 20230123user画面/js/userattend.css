@@ -1,0 +1,80 @@
+#className {
+ font-size: 150%;
+}
+
+#div1{
+ width: 500%;
+ 
+}
+
+
+
+header{
+  height: auto;
+  width: 500%;
+ 
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: block;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kamokutd{
+ width: 10px;
+ text-align: center;
+ padding: 100px;
+
+}
+/*
+td {
+ width: 200px;
+}
+*/
+th {
+ width: 100px;
+ text-align: center;
+ 
+}
+.table{
+  white-space: nowrap;
+ width: auto;
+}
+
+caption {
+  caption-side: top;
+  width: auto;
+  font-size: 20px;
+ font-weight: 200;
+}
+
+#shusseki {
+  background-color: #f0f8ff;
+  width: 150px;
+  text-align: center;
+}
+
+#kouketu {
+  background-color: #f0fff0;
+  width: 150px;
+  text-align: center;
+}
+
+#tikoku {
+  background-color: #fffacd;
+  width: 150px;
+ text-align: center;
+}
+
+#kesseki {
+  background-color: #ff7f50;
+  width: 150px;
+ text-align: center;
+}
+
+.table2{
+ border: 2px #808080 solid;
+ text-align: center;
+}
+

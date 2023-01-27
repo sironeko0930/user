@@ -1,0 +1,30 @@
+#qrread,#attend{
+/*  text-align: center;*/
+ display:flex;
+  justify-content:center;
+  align-items:center;
+ 
+  margin: 0 auto;
+  margin-top: 10%;
+  max-width: 500px;
+  display: table;
+  width: 100%;
+/*  margin-top: 5%;*/
+  font-size: 150%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+}
+
+#container {
+  padding-top: 150px;
+}
+
+.navbar-brand {
+ font-size: 250%;
+ font-weight:bold;
+}

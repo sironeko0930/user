@@ -1,0 +1,130 @@
+#dropdownMenuButton1 {
+ clear: both;
+ text-align: center;
+ margin: 0 auto;
+ max-width: 25%;
+ display: table;
+ width: 100%;
+
+ font-size: 100%;
+ font-weight: bold;
+ display: block;
+ position: relative;
+ background: #83c11e;
+
+ padding: 0.5rem;
+ border-radius: .6rem;
+ color: #fff;
+ text-align: center;
+ text-decoration: none;
+
+ letter-spacing: .1rem;
+ transition: .5s;
+
+}
+
+.m-form-item-textarea textarea {
+ height: 300px;
+}
+
+.m-form-textarea {
+ display: block;
+ width: 100%;
+ padding: 4px 16px;
+ border-radius: 4px;
+ border: none;
+ box-shadow: 0 0 0 1px #ccc inset;
+ appearance: none;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ resize: vertical;
+}
+
+.m-form-textarea:focus {
+ outline: 0;
+ box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+.yohaku {
+ margin: 0px 10px;
+}
+
+* {
+ float: none;
+ position: static;
+}
+
+img {
+ max-width: 100%;
+ height: auto;
+}
+
+.contact-submit {
+ width: 250px;
+ /* 横幅指定 */
+ background-color: #0074e8;
+ /* 背景色 */
+ color: #fff;
+ /* 文字色 */
+ font-weight: bold;
+ /* 文字の太さ */
+ display: block;
+ /* インライン要素をブロック要素に変更 */
+ margin: 0 auto;
+ /* 中央寄せ */
+ font-size: 20px;
+ /* 文字の大きさ */
+ padding: 15px;
+ /* 内側の余白 */
+ border-radius: 100vh;
+ /* 角丸指定 */
+ border: none;
+ appearance: none;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ cursor: pointer;
+ border: 1px solid green;
+ border-radius: 5px;
+
+ padding: 10px;
+ text-align: center;
+ color: white;
+ width: 150px;
+}
+
+@media screen and (max-width:480px) {
+
+ /*　画面サイズが480px以下の場合ここの記述が適用される　*/
+ .contact-submit {
+  width: 250px;
+  /* 横幅指定 */
+  background-color: #0074e8;
+  /* 背景色 */
+  color: #fff;
+  /* 文字色 */
+  font-weight: bold;
+  /* 文字の太さ */
+  display: block;
+  /* インライン要素をブロック要素に変更 */
+  margin: 0 auto;
+  /* 中央寄せ */
+  font-size: 20px;
+  /* 文字の大きさ */
+  padding: 15px;
+  /* 内側の余白 */
+  border-radius: 100vh;
+  /* 角丸指定 */
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 5px;
+
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 150px;
+ }
+}
